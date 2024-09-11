@@ -9,19 +9,17 @@ export const Hero = () => {
         
 </div>
      */}
-      <section className="relative bg-gray-100">
-        
-        <div className="absolute inset-0 bg-black opacity-50">
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
-          <h1 className="text-yellow-400 text-4xl md:text-5xl lg:text-6xl w-[492px] h-[69px] t-[336px] left-[389px] font-poppins font-semibold size-11 leading-[69] bg-[#FFCA09] shadow-[2px_5px_4.8px_0px_#00000070]">
-            Your Ride At One Call
-          </h1>
-          <p className="text-white text-lg md:text-xl mt-4 w-[477px] h-[36px] top-[407px] left-[369px] leading-9 font-inter text-left font-medium shadow-custom ">
-            ALL IN ONE TRAVEL SOLUTIONS
-          </p>
+      <section className="absolute flex inset-0 bg-black bg-opacity-50">
+        <div className="m-auto">
+          <div className="flex flex-col justify-center items-center text-center z-10">
+            <h1 className="text-yellow-400 text-4xl md:text-5xl lg:text-6xl font-poppins font-semibold leading-[69] [text-shadow:_2px_10px_4.8px_rgb(0_0_0_/_44%)]">
+              Your Ride At One Call
+            </h1>
+            <p className="text-white text-lg md:text-xl mt-4 leading-9 font-inter text-center font-medium drop-shadow-custom [text-shadow:_3px_2px_4.1px_rgb(0_0_0_/_57%)]">
+              ALL IN ONE TRAVEL SOLUTIONS
+            </p>
+          </div>
         </div>
-        </div>
-     
       </section>
     </>
   );

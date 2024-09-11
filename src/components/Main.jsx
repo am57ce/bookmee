@@ -12,91 +12,114 @@ export const Main = () => {
       title: "Saloon Car",
       description:
         "Ford Mondeo, VW Passat or similar. These can accommodate up to 3 passengers plus 3 standard suitcases (23kg max), or 4 passengers plus hand luggage.",
-      imageSrc: "../images/img1.png",
+      imageSrc: img1,
     },
     {
       title: "Executive Car",
       description:
         "E Class Mercedes or similar. These can accommodate up to 3 passengers plus 3 standard suitcases (23kg max), or 4 passengers plus hand luggage.",
-      imageSrc: "../images/img2.png",
+      imageSrc: img2,
     },
     {
       title: "Estate Car",
       description:
         "Volvo Estate, VW Passat or similar. These can accommodate up to 4 passengers plus 4 standard suitcases (23kg max).",
-      imageSrc: "../images/img3.png",
+      imageSrc: img3,
     },
     {
       title: "People Carrier",
       description:
         "VW Sharan, Ford Galaxy or similar. These can accommodate up to 5 passengers plus 5 standard suitcases (23kg max), or 6 passengers plus hand luggage.",
-      imageSrc: "../images/img4.png",
+      imageSrc: img4,
     },
     {
       title: "Executive People Carrier",
       description:
         "Mercedes Viano or similar. These can accommodate up to 5 passengers plus 5 standard suitcases (23kg max), or 6 passengers plus hand luggage.",
-      imageSrc: "../images/img5.png",
+      imageSrc: img5,
     },
     {
       title: "8 Seater Minibus",
       description:
         "VW Transporter or similar. These can accommodate 8 passengers plus up to 8 standard suitcases (23kg max).",
-      imageSrc: "../images/img6.png",
+      imageSrc: img6,
     },
   ];
 
   return (
-    <div className="bg-blue-900 text-white p-8">
-      <div className="mb-6 w-[1043px] h-[416px] top-[2235] left-[118px]">
-        <h2 className="text-xl font-bold mb-4 text-center leading-[48px]">
-          TAXI TRANSFERS <span>TO AND FROM ALL UK AIRPORTS</span>
+    <div className="text-white p-8">
+      <div className="mb-6">
+        <h2 className="text-3xl font-semibold mb-4 text-center leading-[48px] text-[#FEB601]">
+          TAXI TRANSFERS{" "}
+          <span className="font-light text-white">
+            TO AND FROM ALL UK AIRPORTS
+          </span>
         </h2>
-        <p className="mb-6 font-poppins font-light size-[18px] leading-[27px] text-justify">
-          We specialize in taxi transfers to and from all UK airports for both
-          individuals and groups, with an emphasis on a courteous and thoroughly
-          professional personal service at affordable prices. 24 hours a day, 7
-          days a week. To obtain an online quote or make your booking please
-          select the 'Type of Journey' you require then enter your quote form
-          details into our quick quote form above. If you don't have the post
-          code please select the 'Type of Journey' then click on the Manual
-          quote button and fill in as many details as possible we will get back
-          to you as soon as possible.
-        </p>
+        <div className="flex flex-col gap-4 mb-6 font-poppins font-light leading-[27px] text-justify">
+          <p>
+            We specialize in taxi transfers to and from all UK airports for both
+            individuals and groups, with an emphasis on a courteous and
+            thoroughly professional personal service at affordable prices. 24
+            hours a day. 7 days a week, if you would like a quote for a journey
+            you are planning please select the 'Type of Journey' you require and
+            enter the post code on the 'Instant Online Quote' form above. If you
+            don't have the post code please select the 'Type of Journey' and
+            then click on the 'Manual Quote' button and fil in as many details
+            as possible and we will email you with a quote as soon as possible.
+            The price we quote is the price you pay.
+          </p>
+          <p>
+            From the moment you contact us. we'll do everything we can to ensure
+            that your booking and transfer go as smoothly as possible. That
+            means an air conditioned vehicle tailored to the number of
+            passengers and the luggage requirements specified by you. An
+            experienced driver with proven customer service skills and an
+            extensive knowledge of the local area.
+          </p>
+        </div>
       </div>
       <div>
-        <h3 className="text-lg font-semibold mb-3 text-center">SERVICES</h3>
-        <p className="mb-6">
-          A Meet and Greet service can be arranged when booking whereby the
-          driver will be in arrivals with the passengers name board clearly
-          visible on their phone or tablet screen.
-        </p>
-        <p className="mb-6">
-          Computer Flight Monitoring is also part of our standard services if
-          your flight is early or subject to delays we will track your flight's
-          progress and send your driver at the new expected time of arrival.
-        </p>
-      </div>
-      <div>
-        <h3 className="text-lg font-semibold mb-3 text-center">
-          POPULAR LOCATIONS
+        <h3 className="text-3xl font-semibold mb-4 text-center leading-[48px] text-[#FEB601]">
+          SERVICES
         </h3>
-        <p className="mb-6">
+        <p className="mb-6 font-light">
+          A 'Meet and Greet' service can be arranged when booking whereby the
+          driver will be in arrivals with the passengers name or company name,
+          whichever you prefer. A comforting thought, especially for first time
+          visitors in a foreign country. If your flight is early or subject to
+          delays, we will track your flight's progress and send your driver at
+          the new expected time of arrival. A lot of our work is corporate based
+          so if you are booking a taxi for other people you need not worry we
+          will give them the professional quality service they would expect We
+          accept most major credit cards and debit cards and send receipts via
+          email. OTS also welcomes corporate account customers and, subject to
+          credit references, we'll be happy to offer you a monthly invoicing
+          facility or direct debit on our airport taxi services.
+        </p>
+      </div>
+      <div>
+        <h3 className="text-3xl font-semibold mb-4 text-center leading-[48px] text-[#FEB601]">
+          POPULAR <span className="text-white font-light">LOCATIONS</span>
+        </h3>
+        <p className="mb-6 font-light">
           We cover the whole of the UK, including many popular locations such
           as:
           <br />
-          Aberdeen, Belfast-City, Belfast-International, Birmingham, Blackpool,
-          Bournemouth, Bristol, Cardiff, Coventry, East-Midlands, Edinburgh,
-          Exeter, Gatwick, Glasgow, Heathrow, Humberside, Inverness,
-          Leeds-Bradford, Liverpool, London-City, Luton, Manchester, Newcastle,
-          Newquay, Norwich, Plymouth, Prestwick, Sheffield, Southampton,
-          Southend, Stansted, Teesside, and Many more....
+          <span className="text-[#FEB601]">
+            Aberdeen, Belfast-City, Belfast-International, Birmingham,
+            Blackpool, Bournemouth, Bristol, Cardiff, Coventry, East-Midlands,
+            Edinburgh, Exeter, Gatwick, Glasgow, Heathrow, Humberside,
+            Inverness, Leeds-Bradford, Liverpool, London-City, Luton,
+            Manchester, Newcastle, Newquay, Norwich, Plymouth, Prestwick,
+            Sheffield, Southampton, Southend, Stansted, Teesside,
+          </span>{" "}
+          and Many more....
         </p>
       </div>
-      <h2 className="text-2xl font-bold mb-6 text-center">
-        OUR EXTENSIVE FLEET
+      <h2 className="text-3xl font-semibold mb-4 text-center leading-[48px] text-white ">
+        OUR <span className="text-[#FEB601]">EXTENSIVE</span> FLEET
       </h2>
-      <p className="mb-6 ">
+      <p className="mb-6 text-center font-light">
         We provide access to a large fleet of vehicle sizes and types.
         Regardless of your party size, luggage, or special requirements, we can
         usually provide the perfect vehicle.
@@ -105,10 +128,14 @@ export const Main = () => {
         {vehicles.map((vehicle, index) => (
           <div
             key={index}
-            className=" pr-4  p-4 rounded-lg  flex items-center w-[922px] h-[142px] top-[4457px] left-[164px]"
+            className="p-4 rounded-lg  flex gap-4 items-center w-[922px] h-[142px] top-[4457px] left-[164px]"
           >
-            <div className="w-[232px] top-[4457] left-[164px] h-[142px]">
-              <img src={img1} alt={vehicle.title} className="" />
+            <div className="w-[232px] ">
+              <img
+                src={vehicle.imageSrc}
+                alt={vehicle.title}
+                className="object-contain"
+              />
             </div>
             <div className="h-[135px] top-[4461px] left-[440px] w-[646px]">
               <h3 className=" font-poppins text-[22px] font-bold leading-[33px] text-justify text-[#FEB601]">
